@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japhete IRADUHETSE | Mathematics & Economics Educator · Data Analyst</title>
+  <meta name="description" content="Portfolio of Japhete IRADUHETSE - Qualified Teacher, Data Analyst, and Computational Mathematics Researcher in Kigali, Rwanda.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/style.css">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              950: '#040812',
+              900: '#071120',
+              850: '#0a172e',
+              800: '#0f2347',
+              700: '#17366d',
+              600: '#1d4ed8',
+              500: '#2563eb',
+              400: '#38bdf8',
+              300: '#7dd3fc',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-950 text-slate-100 font-sans selection:bg-brand-500 selection:text-white relative overflow-x-hidden">
+
+  <!-- Atmospheric Background Glow Elements -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-blue-600/15 rounded-full blur-[140px]"></div>
+    <div class="absolute top-[40%] -left-32 w-[600px] h-[600px] bg-brand-700/10 rounded-full blur-[150px]"></div>
+    <div class="absolute bottom-20 -right-32 w-[600px] h-[600px] bg-sky-500/10 rounded-full blur-[160px]"></div>
+    <div class="absolute inset-0 mesh-pattern opacity-40"></div>
+  </div>
+
+  <!-- STICKY NAVIGATION -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-brand-950/80 border-b border-brand-850/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-brand-600 to-sky-400 p-[1.5px] shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition">
+          <div class="w-full h-full bg-brand-900 rounded-[10px] flex items-center justify-center font-bold text-lg text-sky-400 group-hover:text-white transition">
+            JI
+          </div>
+        </div>
+        <div>
+          <span class="block font-bold text-white text-base tracking-tight leading-none group-hover:text-sky-300 transition">Japhete IRADUHETSE</span>
+          <span class="text-[11px] font-medium text-slate-400 tracking-wider uppercase">Math & Economics · Analytics</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2 text-sm font-medium text-slate-300">
+        <a href="#about" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">About</a>
+        <a href="#skills" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">Skills</a>
+        <a href="#projects" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">Projects</a>
+        <a href="#experience" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">Experience</a>
+        <a href="#education" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">Education</a>
+        <a href="#referees" class="px-3 py-2 rounded-lg hover:text-white hover:bg-brand-900/60 transition">Referees</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden md:flex items-center gap-3">
+        <a href="assets/Japhete_IRADUHETSE_CV.pdf" download class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-brand-850 hover:bg-brand-800 text-sky-300 border border-brand-700/60 transition shadow-sm">
+          <i data-lucide="file-down" class="w-4 h-4"></i>
+          <span>Download CV</span>
+        </a>
+        <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 text-white shadow-lg shadow-blue-600/25 transition">
+          <i data-lucide="send" class="w-3.5 h-3.5"></i>
+          <span>Get in Touch</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-brand-900 focus:outline-none" aria-label="Toggle Menu">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-brand-950/95 border-b border-brand-800 px-6 py-5 space-y-3 backdrop-blur-lg">
+      <a href="#about" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">About</a>
+      <a href="#skills" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Skills</a>
+      <a href="#projects" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Projects</a>
+      <a href="#experience" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Experience</a>
+      <a href="#education" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Education</a>
+      <a href="#referees" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Referees</a>
+      <a href="#contact" class="mobile-nav-link block text-sm font-medium text-slate-300 hover:text-sky-400 py-1">Contact</a>
+      <div class="pt-3 border-t border-brand-850 flex flex-col gap-2">
+        <a href="assets/Japhete_IRADUHETSE_CV.pdf" download class="w-full text-center py-2 text-xs font-semibold rounded-lg bg-brand-850 text-sky-300 border border-brand-700">
+          Download CV (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+
+    <!-- HERO SECTION -->
+    <section id="home" class="pt-12 pb-20 lg:pt-20 lg:pb-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Hero Text Column -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Availability Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/70 border border-blue-500/30 text-sky-300 text-xs font-medium shadow-inner shadow-blue-500/10">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Available for Analytical & Teaching Roles
+          </div>
+
+          <!-- Main Heading -->
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Bridging Mathematics, <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-300">
+              Data Analytics & Education
+            </span>
+          </h1>
+
+          <!-- Tagline & Description -->
+          <p class="text-base sm:text-lg text-slate-300 max-w-2xl font-normal leading-relaxed mx-auto lg:mx-0">
+            I am <strong class="text-white font-semibold">Japhete IRADUHETSE</strong>, a qualified teacher, computational analyst, and researcher from Kigali, Rwanda. I leverage <span class="text-sky-300">Python, MATLAB, GeoGebra</span>, and modern data analytics tools like <span class="text-sky-300">SQL, Power BI, and Excel</span> to solve quantitative challenges and empower the next generation.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#projects" class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 text-white font-semibold text-sm shadow-xl shadow-blue-600/30 transition transform hover:-translate-y-0.5">
+              <span>View Projects</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+
+            <a href="assets/Japhete_IRADUHETSE_CV.pdf" download class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-900/90 hover:bg-brand-850 text-white font-semibold text-sm border border-brand-700 transition transform hover:-translate-y-0.5 shadow-md">
+              <i data-lucide="download" class="w-4 h-4 text-sky-400"></i>
+              <span>Download CV</span>
+            </a>
+
+            <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-950/60 hover:bg-brand-900 text-slate-300 hover:text-white font-semibold text-sm border border-brand-800 transition">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Stat Counters -->
+          <div id="stats-section" class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-brand-850/80">
+            <div class="p-3 rounded-xl bg-brand-900/40 border border-brand-800/50 text-center lg:text-left">
+              <div class="text-2xl font-bold text-white"><span class="counter-val" data-target="100" data-suffix="%">100%</span></div>
+              <div class="text-xs text-slate-400 mt-0.5">Academic Rigor</div>
+            </div>
+            <div class="p-3 rounded-xl bg-brand-900/40 border border-brand-800/50 text-center lg:text-left">
+              <div class="text-2xl font-bold text-sky-400"><span class="counter-val" data-target="3" data-suffix="+">3+</span></div>
+              <div class="text-xs text-slate-400 mt-0.5">Comp. Math Tools</div>
+            </div>
+            <div class="p-3 rounded-xl bg-brand-900/40 border border-brand-800/50 text-center lg:text-left">
+              <div class="text-2xl font-bold text-white"><span class="counter-val" data-target="3" data-suffix="">3</span></div>
+              <div class="text-xs text-slate-400 mt-0.5">Languages Spoken</div>
+            </div>
+            <div class="p-3 rounded-xl bg-brand-900/40 border border-brand-800/50 text-center lg:text-left">
+              <div class="text-2xl font-bold text-blue-400">UR</div>
+              <div class="text-xs text-slate-400 mt-0.5">Graduate Degree</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Visual / Profile Column -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-sm sm:max-w-md">
+            
+            <!-- Glowing Card Frame -->
+            <div class="glass-card rounded-3xl p-6 sm:p-8 text-center relative overflow-hidden">
+              <div class="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+              <!-- Profile Image -->
+              <div class="avatar-glow mx-auto w-44 h-44 sm:w-52 sm:h-52 rounded-full overflow-hidden border-4 border-slate-900 shadow-2xl relative mb-6">
+                <img 
+                  src="assets/japhete.png" 
+                  alt="Japhete IRADUHETSE" 
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+
+              <!-- Profile Info -->
+              <h2 class="text-xl sm:text-2xl font-bold text-white">Japhete IRADUHETSE</h2>
+              <p class="text-sm font-medium text-sky-400 mt-1">Mathematics & Economics with Education</p>
+              <p class="text-xs text-slate-400 flex items-center justify-center gap-1.5 mt-2">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-400"></i>
+                Kigali, Rwanda
+              </p>
+
+              <!-- Quick Badges -->
+              <div class="flex flex-wrap justify-center gap-2 mt-5">
+                <span class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-brand-800 text-slate-200 border border-brand-700">Python</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-brand-800 text-slate-200 border border-brand-700">MATLAB</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-brand-800 text-slate-200 border border-brand-700">GeoGebra</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-blue-900/60 text-sky-300 border border-blue-600/40">Power BI</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] font-semibold bg-blue-900/60 text-sky-300 border border-blue-600/40">SQL & Excel</span>
+              </div>
+
+              <!-- Direct Contact Shortcut -->
+              <div class="mt-6 pt-5 border-t border-brand-800/80 flex items-center justify-between text-xs text-slate-400">
+                <span class="flex items-center gap-1 text-slate-300">
+                  <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                  Verified Credentials
+                </span>
+                <a href="#contact" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center gap-1">
+                  Connect
+                  <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Floating Pill Badge 1 -->
+            <div class="absolute -top-3 -left-4 sm:-left-6 glass-card px-4 py-2.5 rounded-2xl hidden sm:flex items-center gap-3 shadow-xl">
+              <div class="w-8 h-8 rounded-lg bg-blue-600/30 text-sky-400 flex items-center justify-center">
+                <i data-lucide="brain" class="w-4 h-4"></i>
+              </div>
+              <div class="text-left">
+                <p class="text-[11px] font-medium text-slate-400">Focus</p>
+                <p class="text-xs font-bold text-white">AI & Data Analytics</p>
+              </div>
+            </div>
+
+            <!-- Floating Pill Badge 2 -->
+            <div class="absolute -bottom-4 -right-4 sm:-right-6 glass-card px-4 py-2.5 rounded-2xl hidden sm:flex items-center gap-3 shadow-xl">
+              <div class="w-8 h-8 rounded-lg bg-emerald-600/30 text-emerald-400 flex items-center justify-center">
+                <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+              </div>
+              <div class="text-left">
+                <p class="text-[11px] font-medium text-slate-400">University</p>
+                <p class="text-xs font-bold text-white">Univ. of Rwanda</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUICK CONTACT CARDS STRIP -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <!-- Card 1: Primary Phone -->
+        <div onclick="copyText('0783777463', 'Phone 1')" class="glass-card p-4 rounded-2xl cursor-pointer group transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-900/60 text-sky-400 flex items-center justify-center group-hover:scale-110 transition">
+              <i data-lucide="phone" class="w-5 h-5"></i>
+            </div>
+            <div class="overflow-hidden">
+              <span class="text-[11px] font-medium text-slate-400 block">Phone (MTN)</span>
+              <span class="text-sm font-semibold text-white group-hover:text-sky-300 transition truncate block">0783 777 463</span>
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] text-slate-500 flex items-center justify-between">
+            <span>Click to copy</span>
+            <i data-lucide="copy" class="w-3 h-3 text-slate-400"></i>
+          </div>
+        </div>
+
+        <!-- Card 2: Secondary Phone -->
+        <div onclick="copyText('0728440346', 'Phone 2')" class="glass-card p-4 rounded-2xl cursor-pointer group transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-900/60 text-sky-400 flex items-center justify-center group-hover:scale-110 transition">
+              <i data-lucide="smartphone" class="w-5 h-5"></i>
+            </div>
+            <div class="overflow-hidden">
+              <span class="text-[11px] font-medium text-slate-400 block">Phone (Airtel)</span>
+              <span class="text-sm font-semibold text-white group-hover:text-sky-300 transition truncate block">0728 440 346</span>
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] text-slate-500 flex items-center justify-between">
+            <span>Click to copy</span>
+            <i data-lucide="copy" class="w-3 h-3 text-slate-400"></i>
+          </div>
+        </div>
+
+        <!-- Card 3: Email -->
+        <div onclick="copyText('iraduhetse2003@gmail.com', 'Email')" class="glass-card p-4 rounded-2xl cursor-pointer group transition">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-900/60 text-sky-400 flex items-center justify-center group-hover:scale-110 transition">
+              <i data-lucide="mail" class="w-5 h-5"></i>
+            </div>
+            <div class="overflow-hidden">
+              <span class="text-[11px] font-medium text-slate-400 block">Official Email</span>
+              <span class="text-sm font-semibold text-white group-hover:text-sky-300 transition truncate block">iraduhetse2003@gmail.com</span>
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] text-slate-500 flex items-center justify-between">
+            <span>Click to copy</span>
+            <i data-lucide="copy" class="w-3 h-3 text-slate-400"></i>
+          </div>
+        </div>
+
+        <!-- Card 4: Location -->
+        <div class="glass-card p-4 rounded-2xl">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-blue-900/60 text-sky-400 flex items-center justify-center">
+              <i data-lucide="map-pin" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-medium text-slate-400 block">Location</span>
+              <span class="text-sm font-semibold text-white">Kicukiro, Kigali</span>
+            </div>
+          </div>
+          <div class="mt-2 text-[10px] text-slate-400">
+            Bigo, Nyarurama, Gatenga
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-brand-900/40 border-y border-brand-850">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Professional Profile</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Passionate About Math, Economics & Modern Technology</h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-3">Combining rigorous educational training with high-demand computational skills and data-driven insights.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
+          
+          <!-- Detailed Biography Card -->
+          <div class="lg:col-span-7 glass-card p-8 rounded-3xl flex flex-col justify-between">
+            <div class="space-y-4">
+              <h3 class="text-xl font-bold text-white flex items-center gap-2.5">
+                <i data-lucide="user-check" class="w-5 h-5 text-sky-400"></i>
+                About Japhete IRADUHETSE
+              </h3>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                I am a qualified teacher, analyst, and researcher in the digital era, backed by a comprehensive <strong class="text-white">Bachelor's Degree in Mathematics and Economics with Education</strong> from the <strong class="text-white">University of Rwanda</strong>.
+              </p>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                My core expertise centers around computational mathematics using <span class="text-sky-300 font-medium">GeoGebra, MATLAB, and Python</span>, coupled with hands-on proficiency in artificial intelligence and data analytics leveraging <span class="text-sky-300 font-medium">SQL, Power BI, and Microsoft Excel</span>.
+              </p>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                Having taught in various secondary school settings and actively contributed to Rwanda's national service (<em class="text-slate-200">Urugerero</em>), I bring a disciplined, community-minded, and inquisitive mindset committed to continuous professional growth and quantitative excellence.
+              </p>
+            </div>
+
+            <!-- Key Attributes Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 mt-6 border-t border-brand-800">
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Pedagogical Mastery</h4>
+                  <p class="text-xs text-slate-400">Effective curriculum delivery in secondary mathematics & economics.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Data Analytics</h4>
+                  <p class="text-xs text-slate-400">Insightful reporting, relational SQL databases & Power BI dashboards.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Computational Modeling</h4>
+                  <p class="text-xs text-slate-400">Simulation of dynamic equations and curves with MATLAB & GeoGebra.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-white">Community & Civic Duty</h4>
+                  <p class="text-xs text-slate-400">Dedicated national service (Urugerero) participant and youth mentor.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Personal Details & Profile Info -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <!-- Quick Personal Facts -->
+            <div class="glass-card p-6 rounded-3xl space-y-4">
+              <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                <i data-lucide="fingerprint" class="w-5 h-5 text-sky-400"></i>
+                Bio & Identification
+              </h3>
+              
+              <ul class="space-y-3 text-xs sm:text-sm">
+                <li class="flex justify-between py-1.5 border-b border-brand-850">
+                  <span class="text-slate-400">Date of Birth</span>
+                  <span class="font-semibold text-slate-100">07 November 2003</span>
+                </li>
+                <li class="flex justify-between py-1.5 border-b border-brand-850">
+                  <span class="text-slate-400">Nationality</span>
+                  <span class="font-semibold text-slate-100">Rwandan</span>
+                </li>
+                <li class="flex justify-between py-1.5 border-b border-brand-850">
+                  <span class="text-slate-400">Gender</span>
+                  <span class="font-semibold text-slate-100">Male</span>
+                </li>
+                <li class="flex justify-between py-1.5 border-b border-brand-850">
+                  <span class="text-slate-400">Marital Status</span>
+                  <span class="font-semibold text-slate-100">Single</span>
+                </li>
+                <li class="flex justify-between py-1.5">
+                  <span class="text-slate-400">Location</span>
+                  <span class="font-semibold text-slate-100 text-right">Bigo, Gatenga, Kicukiro, Kigali</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Personal Interests -->
+            <div class="glass-card p-6 rounded-3xl">
+              <h3 class="text-lg font-bold text-white flex items-center gap-2 mb-4">
+                <i data-lucide="sparkles" class="w-5 h-5 text-sky-400"></i>
+                Personal Interests & Passions
+              </h3>
+              <div class="grid grid-cols-2 gap-3 text-xs">
+                <div class="p-3 rounded-xl bg-brand-900/60 border border-brand-800 flex items-center gap-2.5">
+                  <i data-lucide="music" class="w-4 h-4 text-blue-400"></i>
+                  <span class="text-slate-200 font-medium">Playing Piano</span>
+                </div>
+                <div class="p-3 rounded-xl bg-brand-900/60 border border-brand-800 flex items-center gap-2.5">
+                  <i data-lucide="book-open" class="w-4 h-4 text-sky-400"></i>
+                  <span class="text-slate-200 font-medium">Reading Literature</span>
+                </div>
+                <div class="p-3 rounded-xl bg-brand-900/60 border border-brand-800 flex items-center gap-2.5">
+                  <i data-lucide="heart" class="w-4 h-4 text-rose-400"></i>
+                  <span class="text-slate-200 font-medium">Worship & Music</span>
+                </div>
+                <div class="p-3 rounded-xl bg-brand-900/60 border border-brand-800 flex items-center gap-2.5">
+                  <i data-lucide="users" class="w-4 h-4 text-emerald-400"></i>
+                  <span class="text-slate-200 font-medium">Intellectual Discussions</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX SECTION -->
+    <section id="skills" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Technical Expertise</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Competencies & Toolset</h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">Specialized proficiency across computational mathematics, analytical intelligence, software tools, and multilingual communication.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Skill Box 1: Computational Mathematics -->
+        <div class="glass-card p-6 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-600/20 text-sky-400 flex items-center justify-center mb-5 border border-blue-500/30">
+              <i data-lucide="binary" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Computational Mathematics</h3>
+            <p class="text-xs text-slate-400 mb-6">Modeling complex mathematical formulations, simulations, and algorithmic equations.</p>
+
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">GeoGebra (Geometry & Algebra)</span>
+                  <span class="text-sky-400">Expert</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">MATLAB (Numerical Computing)</span>
+                  <span class="text-sky-400">Advanced</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[88%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">Python (Mathematical Scripting)</span>
+                  <span class="text-sky-400">Proficient</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[82%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-brand-850 flex flex-wrap gap-1.5">
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Differential Equations</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Curve Fitting</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Matrices</span>
+          </div>
+        </div>
+
+        <!-- Skill Box 2: Data Analytics & AI -->
+        <div class="glass-card p-6 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-sky-600/20 text-sky-400 flex items-center justify-center mb-5 border border-sky-500/30">
+              <i data-lucide="bar-chart-3" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">AI & Data Analytics</h3>
+            <p class="text-xs text-slate-400 mb-6">Extracting actionable trends from quantitative datasets and building intuitive dashboards.</p>
+
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">Power BI (Dashboards & DAX)</span>
+                  <span class="text-sky-400">Advanced</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[90%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">SQL (Queries & Relational Data)</span>
+                  <span class="text-sky-400">Advanced</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[85%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">Microsoft Excel (Modeling & Stats)</span>
+                  <span class="text-sky-400">Expert</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-brand-850 flex flex-wrap gap-1.5">
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Data Visualization</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">KPI Tracking</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Predictive Trends</span>
+          </div>
+        </div>
+
+        <!-- Skill Box 3: Digital Tools & Productivity -->
+        <div class="glass-card p-6 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center mb-5 border border-indigo-500/30">
+              <i data-lucide="laptop" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2">Digital Productivity & Office</h3>
+            <p class="text-xs text-slate-400 mb-6">Modern digital office tools for academic reporting, presentation, and collaboration.</p>
+
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">Microsoft Word (Formatting & Docs)</span>
+                  <span class="text-sky-400">Expert</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[96%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">PowerPoint (Presentations)</span>
+                  <span class="text-sky-400">Expert</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[92%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold mb-1">
+                  <span class="text-slate-200">Internet & Research Literacy</span>
+                  <span class="text-sky-400">Expert</span>
+                </div>
+                <div class="w-full bg-brand-950 rounded-full h-2">
+                  <div class="bg-gradient-to-r from-blue-600 to-sky-400 h-2 rounded-full w-[94%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-brand-850 flex flex-wrap gap-1.5">
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Curriculum Design</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">Technical Writing</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-brand-900 text-slate-300">E-Learning</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- LANGUAGE PROFICIENCY MATRIX -->
+      <div class="mt-12 glass-card p-6 sm:p-8 rounded-3xl">
+        <h3 class="text-xl font-bold text-white flex items-center gap-2 mb-6">
+          <i data-lucide="languages" class="w-5 h-5 text-sky-400"></i>
+          Language Proficiency Matrix
+        </h3>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-xs sm:text-sm">
+            <thead>
+              <tr class="border-b border-brand-800 text-slate-400 font-semibold uppercase tracking-wider text-[11px]">
+                <th class="py-3 px-4">Language</th>
+                <th class="py-3 px-4 text-center">Speaking</th>
+                <th class="py-3 px-4 text-center">Listening</th>
+                <th class="py-3 px-4 text-center">Writing</th>
+                <th class="py-3 px-4 text-center">Reading</th>
+                <th class="py-3 px-4 text-right">Proficiency</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-brand-850 text-slate-200">
+              <tr class="hover:bg-brand-900/40 transition">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                  Kinyarwanda
+                </td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-medium">Excellent</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-medium">Excellent</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-medium">Excellent</td>
+                <td class="py-3.5 px-4 text-center text-emerald-400 font-medium">Excellent</td>
+                <td class="py-3.5 px-4 text-right font-semibold text-emerald-400">Native</td>
+              </tr>
+              <tr class="hover:bg-brand-900/40 transition">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-sky-400"></span>
+                  English
+                </td>
+                <td class="py-3.5 px-4 text-center text-sky-300 font-medium">Very Good</td>
+                <td class="py-3.5 px-4 text-center text-sky-300 font-medium">Very Good</td>
+                <td class="py-3.5 px-4 text-center text-sky-300 font-medium">Very Good</td>
+                <td class="py-3.5 px-4 text-center text-sky-300 font-medium">Very Good</td>
+                <td class="py-3.5 px-4 text-right font-semibold text-sky-300">Professional</td>
+              </tr>
+              <tr class="hover:bg-brand-900/40 transition">
+                <td class="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-blue-400"></span>
+                  French
+                </td>
+                <td class="py-3.5 px-4 text-center text-blue-300 font-medium">Good</td>
+                <td class="py-3.5 px-4 text-center text-blue-300 font-medium">Good</td>
+                <td class="py-3.5 px-4 text-center text-blue-300 font-medium">Good</td>
+                <td class="py-3.5 px-4 text-center text-blue-300 font-medium">Good</td>
+                <td class="py-3.5 px-4 text-right font-semibold text-blue-300">Working</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PROJECTS SHOWCASE SECTION -->
+    <section id="projects" class="py-20 bg-brand-900/40 border-y border-brand-850">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Portfolio Showcase</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Featured Projects & Research</h2>
+            <p class="text-slate-400 text-sm sm:text-base mt-2">Demonstrating practical application in education, data analysis, and mathematical modeling.</p>
+          </div>
+
+          <!-- Project Filter Buttons -->
+          <div class="flex flex-wrap gap-2 mt-6 md:mt-0">
+            <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white border border-blue-500 transition" data-filter="all">All</button>
+            <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-brand-900/60 text-slate-300 border border-brand-800 hover:text-white transition" data-filter="analytics">Data & AI</button>
+            <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-brand-900/60 text-slate-300 border border-brand-800 hover:text-white transition" data-filter="math">Math & Modeling</button>
+            <button class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-brand-900/60 text-slate-300 border border-brand-800 hover:text-white transition" data-filter="education">Education Tech</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <!-- Project 1: School Feeding Management System -->
+          <div class="project-card glass-card rounded-3xl overflow-hidden flex flex-col justify-between" data-category="analytics education">
+            <div class="p-6 sm:p-8">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-3 py-1 rounded-full text-[11px] font-semibold bg-blue-900/60 text-sky-300 border border-blue-700/50">Full-Stack & Analytics</span>
+                <span class="text-xs text-slate-400 flex items-center gap-1">
+                  <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+                  Active Project
+                </span>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">School Feeding Management & Analytics System</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+                An integrated platform tracking student nutritional allocations, meal attendance, kitchen inventory stocks, and supplier costs across Rwandan schools with automated reporting and statistical data modeling.
+              </p>
+              
+              <!-- Tech tags -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">SQL / Supabase</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">React & TypeScript</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Python Analytics</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Statistical Audit</span>
+              </div>
+            </div>
+
+            <div class="px-6 sm:px-8 py-4 bg-brand-900/60 border-t border-brand-850 flex items-center justify-between text-xs">
+              <span class="text-slate-400 font-medium">Impact: Improved resource accountability</span>
+              <a href="#contact" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center gap-1">
+                Request Details
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Economic Data Visualization Dashboard -->
+          <div class="project-card glass-card rounded-3xl overflow-hidden flex flex-col justify-between" data-category="analytics">
+            <div class="p-6 sm:p-8">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-3 py-1 rounded-full text-[11px] font-semibold bg-emerald-950/60 text-emerald-400 border border-emerald-800/40">Business Intelligence</span>
+                <span class="text-xs text-slate-400 flex items-center gap-1">
+                  <i data-lucide="trending-up" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  Power BI & Excel
+                </span>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Macroeconomic Indicators & Inflation Forecasting Dashboard</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+                Interactive Power BI and Excel dashboard evaluating consumer price index (CPI) variations, regional trade patterns, and econometric regression models to predict market trends.
+              </p>
+              
+              <!-- Tech tags -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-emerald-300 font-medium border border-brand-800">Microsoft Power BI</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-emerald-300 font-medium border border-brand-800">DAX Formulas</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-emerald-300 font-medium border border-brand-800">Econometrics</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-emerald-300 font-medium border border-brand-800">Advanced Excel</span>
+              </div>
+            </div>
+
+            <div class="px-6 sm:px-8 py-4 bg-brand-900/60 border-t border-brand-850 flex items-center justify-between text-xs">
+              <span class="text-slate-400 font-medium">Real-time dynamic KPI metrics</span>
+              <a href="#contact" class="text-emerald-400 hover:text-emerald-300 font-semibold inline-flex items-center gap-1">
+                View Architecture
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3: Computational Mathematics Simulations -->
+          <div class="project-card glass-card rounded-3xl overflow-hidden flex flex-col justify-between" data-category="math">
+            <div class="p-6 sm:p-8">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-3 py-1 rounded-full text-[11px] font-semibold bg-indigo-950/60 text-indigo-300 border border-indigo-800/40">Mathematical Modeling</span>
+                <span class="text-xs text-slate-400 flex items-center gap-1">
+                  <i data-lucide="activity" class="w-3.5 h-3.5 text-indigo-400"></i>
+                  GeoGebra & MATLAB
+                </span>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Computational Calculus & Differential Equation Simulations</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+                Dynamic visual simulations in GeoGebra and computational solvers in MATLAB demonstrating Ordinary Differential Equations (ODEs), geometric loci, and market equilibrium supply-demand intersections.
+              </p>
+              
+              <!-- Tech tags -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-indigo-300 font-medium border border-brand-800">GeoGebra Dynamic Math</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-indigo-300 font-medium border border-brand-800">MATLAB ODE45</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-indigo-300 font-medium border border-brand-800">Python NumPy</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-indigo-300 font-medium border border-brand-800">Calculus & Geometry</span>
+              </div>
+            </div>
+
+            <div class="px-6 sm:px-8 py-4 bg-brand-900/60 border-t border-brand-850 flex items-center justify-between text-xs">
+              <span class="text-slate-400 font-medium">Interactive dynamic mathematics</span>
+              <a href="#contact" class="text-indigo-400 hover:text-indigo-300 font-semibold inline-flex items-center gap-1">
+                Explore Models
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4: Academic Performance & Grading Engine -->
+          <div class="project-card glass-card rounded-3xl overflow-hidden flex flex-col justify-between" data-category="education analytics">
+            <div class="p-6 sm:p-8">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-3 py-1 rounded-full text-[11px] font-semibold bg-sky-950/60 text-sky-300 border border-sky-800/40">Educational Tech</span>
+                <span class="text-xs text-slate-400 flex items-center gap-1">
+                  <i data-lucide="award" class="w-3.5 h-3.5 text-sky-400"></i>
+                  Python & Excel
+                </span>
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Automated Student Assessment & Bell-Curve Analyzer</h3>
+              <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
+                Custom script and automated workbook computing exam scores, standard deviations, percentile rankings, and graphical student performance reports for high school curricula.
+              </p>
+              
+              <!-- Tech tags -->
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Python Scripting</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Microsoft Excel</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Statistical Analysis</span>
+                <span class="px-2.5 py-1 rounded-md text-[11px] bg-brand-900 text-sky-300 font-medium border border-brand-800">Report Automation</span>
+              </div>
+            </div>
+
+            <div class="px-6 sm:px-8 py-4 bg-brand-900/60 border-t border-brand-850 flex items-center justify-between text-xs">
+              <span class="text-slate-400 font-medium">Tested across multiple school batches</span>
+              <a href="#contact" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center gap-1">
+                Learn More
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE & NATIONAL SERVICE -->
+    <section id="experience" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Career Journey</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Work Experience & Civic Leadership</h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">Classroom instruction, pedagogical leadership, and dedicated community service.</p>
+      </div>
+
+      <div class="max-w-3xl mx-auto relative pl-6 sm:pl-10 timeline-line space-y-12">
+        
+        <!-- Experience Item 1: Teacher -->
+        <div class="relative glass-card p-6 sm:p-8 rounded-3xl">
+          <!-- Timeline Node Dot -->
+          <div class="absolute -left-[31px] sm:-left-[47px] top-8 w-6 h-6 rounded-full bg-blue-600 border-4 border-brand-950 shadow-md shadow-blue-500/50 flex items-center justify-center">
+            <span class="w-2 h-2 rounded-full bg-white"></span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+            <h3 class="text-xl font-bold text-white">Teacher / STEM Educator</h3>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-900/60 text-sky-300 border border-blue-700/50 w-fit">
+              Different Schools · Rwanda
+            </span>
+          </div>
+          
+          <p class="text-xs text-sky-400 font-semibold mb-4">Teaching Experience in Secondary Education</p>
+          
+          <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 list-disc list-inside">
+            <li>Delivered structured curriculum in <strong class="text-white">Mathematics</strong> and <strong class="text-white">Economics</strong>, cultivating critical thinking and quantitative problem solving.</li>
+            <li>Introduced computational visualization tools including <strong class="text-white">GeoGebra</strong> to help students conceptualize complex algebraic and geometric formulas.</li>
+            <li>Created continuous assessments, customized lesson plans, and provided academic guidance to enhance performance in national examinations.</li>
+            <li>Implemented digital recording systems for student attendance and grading metrics using Microsoft Office.</li>
+          </ul>
+        </div>
+
+        <!-- Experience Item 2: National Service -->
+        <div class="relative glass-card p-6 sm:p-8 rounded-3xl">
+          <!-- Timeline Node Dot -->
+          <div class="absolute -left-[31px] sm:-left-[47px] top-8 w-6 h-6 rounded-full bg-sky-400 border-4 border-brand-950 shadow-md shadow-sky-400/50 flex items-center justify-center">
+            <span class="w-2 h-2 rounded-full bg-white"></span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+            <h3 class="text-xl font-bold text-white">Urugerero (National Service)</h3>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950/60 text-emerald-400 border border-emerald-800/50 w-fit">
+              15 Nov 2022 – 24 Feb 2023
+            </span>
+          </div>
+          
+          <p class="text-xs text-emerald-400 font-semibold mb-4">Civic Development & Community Mobilization · Rwanda</p>
+          
+          <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 list-disc list-inside">
+            <li>Engaged in nationwide community mobilization, citizen support programs, and public socio-economic initiatives.</li>
+            <li>Promoted educational literacy, civic responsibilities, and youth empowerment within the local community.</li>
+            <li>Demonstrated teamwork, resilience, disciplined work ethics, and collaborative project execution.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-20 bg-brand-900/40 border-y border-brand-850">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Academic Background</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Education & Qualifications</h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-3">From primary foundations to specialized university degree in mathematics and economics.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          <!-- Degree: University of Rwanda -->
+          <div class="glass-card p-6 sm:p-8 rounded-3xl border-l-4 border-l-blue-500">
+            <div class="flex items-start justify-between gap-4 mb-4">
+              <div>
+                <span class="text-xs font-bold text-sky-400 uppercase tracking-wider">Higher Education · Bachelor's</span>
+                <h3 class="text-xl font-bold text-white mt-1">Bachelor's Degree</h3>
+                <p class="text-sm font-semibold text-slate-300">Mathematics and Economics with Education</p>
+              </div>
+              <div class="w-12 h-12 rounded-2xl bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+              </div>
+            </div>
+            
+            <p class="text-xs text-sky-300 font-semibold mb-3">University of Rwanda</p>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Rigorous curriculum encompassing advanced calculus, linear algebra, numerical analysis, microeconomics, macroeconomics, econometrics, statistical modeling, and modern pedagogical methodologies.
+            </p>
+          </div>
+
+          <!-- Advanced Level: GS APAREC Murambi -->
+          <div class="glass-card p-6 sm:p-8 rounded-3xl border-l-4 border-l-sky-400">
+            <div class="flex items-start justify-between gap-4 mb-4">
+              <div>
+                <span class="text-xs font-bold text-sky-400 uppercase tracking-wider">Secondary Education · A2 Level</span>
+                <h3 class="text-xl font-bold text-white mt-1">Advanced Level (A2)</h3>
+                <p class="text-sm font-semibold text-slate-300">Mathematics, Computer Science & Economics (MCE)</p>
+              </div>
+              <div class="w-12 h-12 rounded-2xl bg-sky-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                <i data-lucide="award" class="w-6 h-6"></i>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-between text-xs text-sky-300 font-semibold mb-3">
+              <span>G.S APAPEC Murambi</span>
+              <span class="px-2.5 py-0.5 rounded bg-brand-900 border border-brand-800 text-slate-300">2019 – 2022</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Distinguished training in mathematical analysis, foundational programming and computational logic, along with macroeconomic principles and enterprise economics.
+            </p>
+          </div>
+
+          <!-- Ordinary Level: GS Nyanza -->
+          <div class="glass-card p-6 sm:p-8 rounded-3xl border-l-4 border-l-indigo-400">
+            <div class="flex items-start justify-between gap-4 mb-4">
+              <div>
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Secondary Education · O-Level</span>
+                <h3 class="text-xl font-bold text-white mt-1">Ordinary Level Certificate</h3>
+                <p class="text-sm font-semibold text-slate-300">General Sciences & Humanities</p>
+              </div>
+              <div class="w-12 h-12 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center shrink-0">
+                <i data-lucide="book-marked" class="w-6 h-6"></i>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-between text-xs text-indigo-300 font-semibold mb-3">
+              <span>G.S Nyanza</span>
+              <span class="px-2.5 py-0.5 rounded bg-brand-900 border border-brand-800 text-slate-300">2016 – 2018</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Core secondary curriculum establishing fundamental proficiency in mathematics, physical sciences, biology, languages, and social sciences.
+            </p>
+          </div>
+
+          <!-- Primary Level: Nyarurama Primary School -->
+          <div class="glass-card p-6 sm:p-8 rounded-3xl border-l-4 border-l-slate-400">
+            <div class="flex items-start justify-between gap-4 mb-4">
+              <div>
+                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Primary Education</span>
+                <h3 class="text-xl font-bold text-white mt-1">Primary School Certificate</h3>
+                <p class="text-sm font-semibold text-slate-300">Foundation Curriculum</p>
+              </div>
+              <div class="w-12 h-12 rounded-2xl bg-slate-700/20 text-slate-300 flex items-center justify-center shrink-0">
+                <i data-lucide="school" class="w-6 h-6"></i>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-between text-xs text-slate-300 font-semibold mb-3">
+              <span>Nyarurama Primary School</span>
+              <span class="px-2.5 py-0.5 rounded bg-brand-900 border border-brand-800 text-slate-300">2009 – 2015</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Primary education excellence, establishing lifelong dedication to academic diligence, discipline, and community values.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VERIFIED REFEREES SECTION -->
+    <section id="referees" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Professional Endorsements</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Verified Academic & Professional Referees</h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">Distinguished lecturers and managers who can verify Japhete's qualifications, character, and work ethic.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Referee 1: Marcel UWINTIJE -->
+        <div class="glass-card p-6 sm:p-7 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-lg shadow-blue-500/20">
+              MU
+            </div>
+            <h3 class="text-lg font-bold text-white">Marcel UWINTIJE</h3>
+            <p class="text-xs font-semibold text-sky-400 mb-2">Lecturer · University of Rwanda</p>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Academic lecturer capable of endorsing mathematical proficiency, research capacity, and educational dedication.
+            </p>
+          </div>
+
+          <div class="space-y-2 pt-4 border-t border-brand-850 text-xs">
+            <a href="tel:0781424574" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-blue-400"></i>
+              <span>0781 424 574</span>
+            </a>
+            <a href="mailto:marceluwintije@gmail.com" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition truncate">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-blue-400 shrink-0"></i>
+              <span class="truncate">marceluwintije@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Referee 2: Christian MUSHIMIYIMANA -->
+        <div class="glass-card p-6 sm:p-7 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-500 to-indigo-500 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-lg shadow-sky-500/20">
+              CM
+            </div>
+            <h3 class="text-lg font-bold text-white">Christian MUSHIMIYIMANA</h3>
+            <p class="text-xs font-semibold text-sky-400 mb-2">Manager</p>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Professional referee providing appraisal on managerial reliability, analytical competence, and teamwork.
+            </p>
+          </div>
+
+          <div class="space-y-2 pt-4 border-t border-brand-850 text-xs">
+            <a href="tel:0789290270" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-400"></i>
+              <span>0789 290 270</span>
+            </a>
+            <a href="mailto:christianmushimiyimana@gmail.com" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition truncate">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-sky-400 shrink-0"></i>
+              <span class="truncate">christianmushimiyimana@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Referee 3: Emmanuel ABAYISABA -->
+        <div class="glass-card p-6 sm:p-7 rounded-3xl flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-600 to-blue-500 text-white flex items-center justify-center font-bold text-lg mb-4 shadow-lg shadow-indigo-500/20">
+              EA
+            </div>
+            <h3 class="text-lg font-bold text-white">Emmanuel ABAYISABA</h3>
+            <p class="text-xs font-semibold text-sky-400 mb-2">Colleague · University of Rwanda</p>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Academic peer providing first-hand perspective on collaborative research, project execution, and peer mentoring.
+            </p>
+          </div>
+
+          <div class="space-y-2 pt-4 border-t border-brand-850 text-xs">
+            <a href="tel:0790390279" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-indigo-400"></i>
+              <span>0790 390 279</span>
+            </a>
+            <a href="mailto:abayisabaemmanuel2004@gmail.com" class="flex items-center gap-2 text-slate-300 hover:text-sky-300 transition truncate">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-indigo-400 shrink-0"></i>
+              <span class="truncate">abayisabaemmanuel2004@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Formal Declaration Banner -->
+      <div class="mt-10 p-5 rounded-2xl bg-brand-900/50 border border-brand-800 text-center max-w-2xl mx-auto text-xs text-slate-400">
+        <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 inline mr-1 -mt-0.5"></i>
+        <em>"I certify that the information provided above is accurate and true to the best of my knowledge."</em> — <strong class="text-white">Japhete IRADUHETSE</strong>
+      </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 bg-brand-900/40 border-t border-brand-850">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-sky-400 bg-sky-950/60 border border-sky-800/40">Get in Touch</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Let's Connect & Collaborate</h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-3">Interested in hiring, research collaboration, tutoring, or quantitative consulting? Send a direct message.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+          
+          <!-- Contact Channels Info -->
+          <div class="lg:col-span-5 space-y-6">
+            
+            <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6">
+              <h3 class="text-xl font-bold text-white">Direct Communication</h3>
+              
+              <div class="space-y-4">
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-xl bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-xs text-slate-400 uppercase font-semibold">Email Address</h4>
+                    <a href="mailto:iraduhetse2003@gmail.com" class="text-sm font-semibold text-white hover:text-sky-300 transition">
+                      iraduhetse2003@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-xl bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="phone" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-xs text-slate-400 uppercase font-semibold">Phone Lines</h4>
+                    <p class="text-sm font-semibold text-white">0783 777 463 / 0728 440 346</p>
+                    <span class="text-[11px] text-slate-400">Available via Calls, SMS & WhatsApp</span>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div class="w-10 h-10 rounded-xl bg-blue-600/20 text-sky-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-xs text-slate-400 uppercase font-semibold">Address</h4>
+                    <p class="text-sm font-semibold text-white">Bigo Village, Nyarurama Cell</p>
+                    <p class="text-xs text-slate-400">Gatenga Sector, Kicukiro District, Kigali City</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action buttons -->
+              <div class="pt-4 border-t border-brand-850 flex flex-col sm:flex-row gap-3">
+                <a href="https://wa.me/250783777463" target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs text-center flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/20 transition">
+                  <i data-lucide="message-square" class="w-4 h-4"></i>
+                  <span>WhatsApp Chat</span>
+                </a>
+                <a href="tel:0783777463" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-850 hover:bg-brand-800 text-slate-200 font-semibold text-xs text-center flex items-center justify-center gap-2 border border-brand-700 transition">
+                  <i data-lucide="phone-call" class="w-4 h-4 text-sky-400"></i>
+                  <span>Call Directly</span>
+                </a>
+              </div>
+
+            </div>
+
+            <!-- Resume Download Box -->
+            <div class="glass-card p-6 rounded-3xl flex items-center justify-between">
+              <div>
+                <h4 class="text-sm font-bold text-white">Official Curriculum Vitae</h4>
+                <p class="text-xs text-slate-400">Verified two-page complete PDF resume</p>
+              </div>
+              <a href="assets/Japhete_IRADUHETSE_CV.pdf" download class="px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 text-white font-semibold text-xs flex items-center gap-1.5 shadow-md">
+                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                <span>Download</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="lg:col-span-7 glass-card p-8 rounded-3xl">
+            <h3 class="text-xl font-bold text-white mb-2">Send an Instant Message</h3>
+            <p class="text-xs text-slate-400 mb-6">Fill in the fields below and the system will instantly dispatch your request to Japhete's official inbox.</p>
+
+            <form id="contact-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="form-name" class="block text-xs font-semibold text-slate-300 mb-1.5">Your Full Name</label>
+                  <input type="text" id="form-name" required placeholder="e.g. Jean Paul" class="w-full px-4 py-3 rounded-xl bg-brand-950/80 border border-brand-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition">
+                </div>
+
+                <div>
+                  <label for="form-email" class="block text-xs font-semibold text-slate-300 mb-1.5">Your Email Address</label>
+                  <input type="email" id="form-email" required placeholder="e.g. name@example.com" class="w-full px-4 py-3 rounded-xl bg-brand-950/80 border border-brand-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition">
+                </div>
+              </div>
+
+              <div>
+                <label for="form-subject" class="block text-xs font-semibold text-slate-300 mb-1.5">Subject / Opportunity</label>
+                <input type="text" id="form-subject" required placeholder="e.g. Teaching Role / Data Analyst Inquiry" class="w-full px-4 py-3 rounded-xl bg-brand-950/80 border border-brand-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition">
+              </div>
+
+              <div>
+                <label for="form-message" class="block text-xs font-semibold text-slate-300 mb-1.5">Message</label>
+                <textarea id="form-message" rows="4" required placeholder="Hello Japhete, I came across your portfolio and would like to discuss..." class="w-full px-4 py-3 rounded-xl bg-brand-950/80 border border-brand-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-400 focus:ring-1 focus:ring-sky-400 transition resize-none"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 text-white font-semibold text-sm shadow-xl shadow-blue-600/30 transition flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Send Message Directly</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-950 border-t border-brand-850 py-12 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center font-bold text-white text-sm">
+          JI
+        </div>
+        <div>
+          <span class="block font-bold text-white text-sm">Japhete IRADUHETSE</span>
+          <span class="text-xs text-slate-400">Mathematics & Economics with Education · Kigali, Rwanda</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-6 text-xs text-slate-400">
+        <a href="#about" class="hover:text-sky-300 transition">About</a>
+        <a href="#skills" class="hover:text-sky-300 transition">Skills</a>
+        <a href="#projects" class="hover:text-sky-300 transition">Projects</a>
+        <a href="#education" class="hover:text-sky-300 transition">Education</a>
+        <a href="#contact" class="hover:text-sky-300 transition">Contact</a>
+      </div>
+
+      <div class="text-xs text-slate-500 text-center md:text-right">
+        &copy; 2026 Japhete IRADUHETSE. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- NOTIFICATION TOAST -->
+  <div id="toast" class="hidden fixed bottom-6 right-6 z-50 max-w-sm glass-card border border-sky-400/40 p-4 rounded-2xl shadow-2xl flex items-center gap-3 text-white">
+    <div class="w-8 h-8 rounded-full bg-blue-600/40 text-sky-400 flex items-center justify-center shrink-0">
+      <i data-lucide="check" class="w-4 h-4"></i>
+    </div>
+    <div id="toast-message" class="text-xs font-semibold text-slate-100">
+      Action completed!
+    </div>
+  </div>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+  <!-- Main Script -->
+  <script src="assets/main.js"></script>
+</body>
+</html>
